@@ -14,6 +14,10 @@ namespace FutureValue.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            return View();
+        }
         [HttpGet]
         public IActionResult Index()
         {
